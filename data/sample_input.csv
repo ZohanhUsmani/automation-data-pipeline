@@ -1,0 +1,8 @@
+name,age,email,salary,department
+ Alice ,25,alice@example.com,50000,Engineering
+Bob,30,bob@example.com,60000,Engineering
+Charlie,35,charlie@example.com,70000,Sales
+Alice,25,alice@example.com,50000,Engineering
+Diana,28,diana@example.com,,Marketing
+Eve,40,eve@example.com,80000,HR
+,22,ghost@example.com,45000,Engineering

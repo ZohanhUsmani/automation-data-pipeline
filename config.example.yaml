@@ -1,0 +1,17 @@
+cleaning:
+  drop_duplicates: true
+  numeric_columns: [age, salary]
+  fill_strategy: mean   # none | drop | value | mean
+  fill_value: null
+
+validation:
+  required: [name, age, email]
+  not_null: [name, email]
+  ranges:
+    age: [0, 120]
+    salary: [0, 1000000]
+  regex:
+    email: "^[^@]+@[^@]+\\.[^@]+$"
+
+transform:
+  filter: "age >= 22"
